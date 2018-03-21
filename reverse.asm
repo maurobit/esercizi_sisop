@@ -7,10 +7,11 @@ main:
 push imsg1
 call printf
 
-push dword[n]
+push dword n
 push ifmt
 call scanf
 
+push dword [n]
 push imsg2
 call printf
 
