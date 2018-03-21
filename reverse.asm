@@ -68,8 +68,8 @@ call exit
 segment .rodata
 imsg1: db 'Inserisci il numero di elementi: ',0
 imsg2: db 'Inserisci i %d elementi: ',0
-ifmt: db '%d',0
-ofmt: db '%d',0
+ifmt: db ' %d',0
+ofmt: db ' %d',0
 
 segment .bss
 n: resd 1
