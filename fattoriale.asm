@@ -11,7 +11,7 @@ push x
 push ifmt
 call scanf
 
-push [x]
+push dword[x]
 fattoriale:
 prologo:
 push ebp
